@@ -1,0 +1,105 @@
+/* Meu primeiro arquivo CSS */
+
+/*seletor{
+	propriedade: valor;
+	propriedade2: valor2;
+}*/
+
+*{/* Seletor da página inteira */
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+}
+
+
+body{/* Seletor body */
+	background-color: white;
+}
+
+/*rgb(224,255,255)*/
+header{/* Seletor do header */
+	background-image: -webkit-linear-gradient(LightCyan, white);
+	background-image: -moz-linear-gradient(LightCyan, white);
+	background-image: -o-linear-gradient(LightCyan, white);
+	height: 100px; 
+}
+
+
+h1{
+	margin: 0px 0px 20px 20px;
+	text-shadow: 1px 1px 1px #111111;
+}
+
+
+p{/* Seletor de parágrafo */
+	font-size: 16px;
+	font-family: Arial;
+	margin: 0px 0px 0px 30px;
+}
+
+
+footer{
+	/*clear: both;*/
+	font-size: 15px;
+	background-image: -webkit-linear-gradient(LightCyan, white);
+	background-image: -moz-linear-gradient(LightCyan, white);
+	background-image: -o-linear-gradient(LightCyan, white);
+	height: 50px;
+	text-align: center;
+	padding: 10px 0px 0px 0px;
+
+}
+
+
+#logo{
+	float: left;
+	width: 22%;
+
+}
+
+
+#menu{
+	width:78%;
+	margin-top: 32px;
+	float: right;
+
+}
+
+#menu a{
+	padding: 50px;
+	text-decoration: none;
+	color: black;
+	text-shadow: 0.8px 0.8px 0.8px #111111;
+}
+
+#menu a:hover{
+	background-color: LightCyan;
+
+}
+
+#principal{ /* o hastag serve para selecionar uma Id*/
+
+	clear: both;
+	background-color: white;
+	background-image: url('simbolo.png');
+	background-size: 100%;
+	min-height: 700px;
+	padding: 240px 0px 0px 0px;
+	
+	/*width: 60%;*/
+	/*float: left;*/
+}
+
+
+.Container{ /* utiliza o ponto para selecionar uma classe */
+	width: 100%;
+	margin: auto;
+}
+
+
+.efeito{
+	background-image: -webkit-linear-gradient(top, rgba(224,255,255,0.5), white);
+	background-image: -moz-linear-gradient(top, rgba(224,255,255,0.5), white);
+	background-image: -o-linear-gradient(top, rgba(224,255,255,0.5), white);
+	padding: 60px 30px 60px 30px
+}
